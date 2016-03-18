@@ -1,6 +1,6 @@
 {
   "name": "concurrent-task-queue",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Combine promises in task queues of individual concurrency setting, and compose task queues to more complex sequences or procedures easily.",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,10 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hagb4rd/promise-queue.git"
+  },
+  "dependencies": {
+    "es6-shim": "~0.35.0",
+    "bluebird": "~3.3.4"
   },
   "keywords": [
     "promise",
