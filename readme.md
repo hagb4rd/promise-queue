@@ -1,9 +1,9 @@
-# promise-queue
+# concurrent-task-queue
 
-npm install promise-queue
+npm install concurrent-task-queue
 
-```
-var queue = require('promise-queue');
+```javascript
+var queue = require('concurrent-task-queue');
 
 //promise html image
 function getImage(url) {

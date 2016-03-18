@@ -1,6 +1,6 @@
 {
-  "name": "promise-queue",
-  "version": "0.0.1",
+  "name": "concurrent-task-queue",
+  "version": "0.0.2",
   "description": "Combine promises in task queues of individual concurrency setting, and compose task queues to more complex sequences or procedures easily.",
   "main": "index.js",
   "scripts": {
